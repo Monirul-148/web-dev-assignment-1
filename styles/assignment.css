@@ -1,0 +1,14 @@
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: blue;
+}
+
+.one{
+    background-image: url(../images/Hero-bg.png);
+    
+}
