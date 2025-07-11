@@ -61,31 +61,105 @@ shared style
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
    
 }
 .logo{
     color: #4E47FF;
+    font-weight: bolder;
+    font-size: 60px;
 }
+/* body styles */
+.header{
+    background-image: url('../images/Hero-bg.png');
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-size: 65px;
+    text-align: center;
+}
+
 .one{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    
+
 
 }
 .two{
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.rounded-image{
+    border-radius: 20px;
 }
 .three{
+  display: flex;
+  flex-direction: column;
 
+}
+.good{
+    text-align: center;
+}
+.ul-items{
+    display:flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .four{
+display: flex;
+gap:20px;
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0x black;
+margin-right: auto;
+margin-left: auto;
+ 
 
 }
+.card{
+   
+    padding: 20px;
+}
 .five{
+    padding: 50px;
+
+}
+.big-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.big-card-image{
+    margin-top: 20px;
 
 }
 .six{
+display:flex;
+
+}
+.width-half{
+    width: 50%;
+}
+.flex-cell{
+    display: flex;
+    flex-direction: column;
+}
+.input-feel{
+    padding: 8px;
+}
+.space-y{
 
 }
 .footer{
-    
+padding: 130px 230px;
+display: flex;
+gap: 100px;
 }
